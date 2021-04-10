@@ -1,0 +1,276 @@
+body {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    color: orange;
+   
+    background: url(https://img3.goodfon.ru/wallpaper/nbig/7/5b/kosmos-planeta-tumannost.jpg);
+}
+
+a {
+    text-decoration: none;
+    color: orange;
+}
+
+p {
+    margin: 0;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-wrapper {
+    width: 1000px;
+}
+
+.top-menu {
+    display: flex;
+    list-style: none;
+    height: 100px;
+    justify-content: space-between;
+    border-bottom: solid 2px #5A5858;
+}
+
+.top-menu li {
+    display: flex;
+    align-items: center;
+}
+
+.top-menu a {
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 100px;
+    text-align: center;
+    color:orange;
+    transition: all 0.5s;
+ 
+}
+
+.top-menu a:hover {
+    color: yellow;
+}
+
+header {
+    padding-bottom: 100px;
+    bgcolor: yellow;
+}
+
+header .row {
+    align-items: flex-end;
+    padding: 30px 0px;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+}
+
+.position {
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+}
+
+.lang a {
+    font-size: 18px;
+    line-height: 25px;
+    color: #A7A7A7;
+}
+
+a.active {
+    color: #000000;
+    font-weight: bold;
+}
+
+.rotate {
+    transform: rotate(-90deg);
+    transform-origin: right bottom;
+    margin-top: -100px;
+}
+
+.photo {
+    width: 100%;
+    height: 560px;
+    background: url('../images/96e276b38f3ad0cef5e5616aab6a1c8d.jpg') no-repeat center;
+    background-size: cover;
+}
+.photo1 {
+    width: 100%;
+    height: 560px;
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.4),rgba(0,0,0,0.1)), url('../images/turist.jpg') no-repeat center;
+    background-size: cover;
+}
+
+section {
+    padding: 70px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.section-bg {
+background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://us.v-cdn.net/5021068/uploads/editor/ih/l1dmophsoqto.jpg);
+    color: #6CDAEE;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 33px;
+    letter-spacing: 0.1em;
+    margin: 0;
+    padding-bottom: 8px;
+    color: orange;
+    
+}
+
+p {
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.1em;
+    color: orange;
+    text-align: center;
+}
+p {
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.1em;
+    color: orange;
+}
+li{
+    color: orange;
+}
+ol{
+    color: #10E7DC;
+}
+.about p {
+    margin-bottom: 28px;
+}
+
+.about p:last-child {
+    margin-bottom: 0px;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: orange;
+    margin: 25px 50px;
+}
+
+.skill .img {
+        background-position: center;
+ border-radius: 25px;
+}
+
+.skill01 {
+   width: 100px;
+    height: 100px;
+    background-image: url('../images/znac.png')
+}
+.star {
+    width: 25px;
+    height: 25px;
+    background: url('../images/star.svg');
+}
+
+.star-active {
+    background: url('../images/black-star.svg');
+}
+
+.skills p {
+    margin-bottom: 50px;
+}
+
+.pf {
+    padding-bottom: 10px;
+}
+
+.pf h2 {
+    padding-bottom: 70px;
+}
+
+.case .img {
+    width: 60%;
+    height: 370px;
+    background-position: center;
+    background-size: cover;
+    text-align: right;
+}
+
+.case01 {
+    background: url('../images/raketa.jpg')
+}
+
+.case02 {
+    background: url('../images/raketa2.jpg')
+}
+
+.case04 {
+    background: url('../images/sotr.jpg')
+}
+.case {
+    margin-bottom: 70px;
+}
+
+h4 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.1em;
+    text-decoration-line: underline;
+    color: #6CDAEE;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+.contacts {
+    flex-direction: column;
+    align-items: center;
+}
+
+.contacts .row {
+    width: 280px;
+    margin-bottom: 50px;
+}
+
+.contacts h2 {
+    padding: 0px;
+    margin-bottom: 35px;
+}
+
+.btn-message {
+    background: black;
+    padding: 13px 35px;
+    color: orange;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-bottom: 80px;
+    margin-top: 35px;
+    transition: all 0.5s;
+}
+
+.btn-message:hover {
+    background-color: purple;
+}
+
+.like {
+    color: orange;
+    text-align: center;
+   line-height: 50px;
+}
